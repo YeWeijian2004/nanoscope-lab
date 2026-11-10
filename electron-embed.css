@@ -1,0 +1,4 @@
+/* Opt-in presentation of the existing electron experiment only. */
+html.electrons-only .sidebar,html.electrons-only .skip,html.electrons-only main>:not(#lab),html.electrons-only #lab>:not(#panel-electrons){display:none!important}
+html.electrons-only main{margin:0;padding:0;max-width:none}html.electrons-only #lab{padding:0;border:0}html.electrons-only #panel-electrons{border:0}html.electrons-only .lab-grid{grid-template-columns:250px minmax(0,1fr)}html.electrons-only body{margin:0}
+@media(max-width:650px){html.electrons-only .lab-grid,html.electrons-only .lab-foot{grid-template-columns:1fr}html.electrons-only .controls,html.electrons-only .plot-area{padding:14px}}

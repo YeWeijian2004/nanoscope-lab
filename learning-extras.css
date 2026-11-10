@@ -1,0 +1,6 @@
+.extras .sidebar,.extras .skip,.extras main>.topbar,.extras main>footer,.extras main>#home,.extras .supporting-index{display:none!important}
+.extras main{margin:0;padding:16px;max-width:none}.extras .section{padding:20px 0}.extras .lab-grid{grid-template-columns:250px minmax(0,1fr)}
+.extras-probes main>:not(#lab),.extras-probes #lab>:not(#panel-probes){display:none!important}
+.extras-ptycho main>:not(#lab):not(#frontier):not(#sources),.extras-ptycho #lab>:not(#panel-ptycho),.extras-ptycho .mini-lessons,.extras-ptycho #frontier>.fine{display:none!important}
+.extras-concepts main>:not(#instruments):not(#challenge):not(#lab),.extras-concepts #lab>:not(.notebook){display:none!important}
+@media(max-width:650px){.extras .lab-grid,.extras .lab-foot,.extras .notebook,.extras .quiz-grid,.extras .frontier-grid,.extras .source-grid{grid-template-columns:1fr}.extras .controls,.extras .plot-area{padding:12px}.extras h2{font-size:28px}}
